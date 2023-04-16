@@ -6,7 +6,7 @@ const Login = () => {
     <div className="flex flex-wrap w-full">
       <div className="flex flex-col w-full md:w-1/2">
         <div className="flex justify-center pt-12 md:justify-start md:pl-12 md:-mb-24">
-          <a href="#" className="p-4 text-xl font-bold text-white bg-black">
+          <a href="/" className="p-4 text-xl font-bold text-white bg-black">
             BookMyTable
           </a>
         </div>
@@ -76,6 +76,7 @@ const Login = () => {
         <img
           className="hidden object-cover w-full h-screen md:block"
           src="https://www.tailwind-kit.com/images/object/9.jpg"
+          alt="blob"
         />
       </div>
     </div>
