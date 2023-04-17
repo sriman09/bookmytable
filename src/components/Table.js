@@ -30,7 +30,7 @@ const Table = () => {
                 </h1>
                 <div className="flex items-center flex-wrap  justify-center py-8 ">
                   <NavLink
-                    to="/booking"
+                    to="/book"
                     className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                   >
                     Book
@@ -55,9 +55,12 @@ const Table = () => {
                 </h1>
                 {/* <p className="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p> */}
                 <div className="flex justify-center py-8 items-center flex-wrap">
-                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                  <NavLink
+                    to="/book"
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  >
                     Book
-                  </button>
+                  </NavLink>
                   {/* <a className="text-indigo-400 inline-flex items-center md:mb-2 lg:mb-0">Learn More
                         <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                         <path d="M5 12h14"></path>
@@ -94,9 +97,12 @@ const Table = () => {
                   Table 3
                 </h1>
                 <div className="flex items-center justify-center py-8 flex-wrap ">
-                  <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                  <NavLink
+                    to="/book"
+                    className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                  >
                     Book
-                  </button>
+                  </NavLink>
                 </div>
               </div>
             </div>
