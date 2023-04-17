@@ -26,6 +26,9 @@ const Header = () => {
           <NavLink className="mr-5 hover:text-white" to="/">
             Home
           </NavLink>
+          <NavLink className="mr-5 hover:text-white" to="/booking">
+            Bookings
+          </NavLink>
           <NavLink className="mr-5 hover:text-white" to="/pricing">
             Pricing
           </NavLink>
